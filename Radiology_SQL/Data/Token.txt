@@ -1,0 +1,6 @@
+,325,metal,30,Y,15
+,5467,plastic,65,Y,5
+,554,metal,34,N,5
+,3232,metal,23,Y,15
+,578,metal,2,Y,5
+,981,metal,9,Y,5

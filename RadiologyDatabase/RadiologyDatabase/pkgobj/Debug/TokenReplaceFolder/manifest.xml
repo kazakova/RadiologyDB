@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2defb451-db50-4a38-a49d-df6b1e59aac7" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="RadiologyDatabase.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="RadiologyDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4b35715c6dc818f0" Namespace="RadiologyDatabase.UserPickerAndRecords" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RadiologyDatabase_Feature1\Feature.xml" />
+    <FeatureManifest Location="RadiologyDatabase_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>

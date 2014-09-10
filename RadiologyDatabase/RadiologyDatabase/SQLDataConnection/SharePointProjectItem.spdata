@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.BusinessDataConnectivity" DefaultFile="SQLDataConnection.bdcm" FeatureReceiverClass="Microsoft.Office.SharePoint.ClientExtensions.Deployment.ImportModelReceiver" FeatureReceiverAssembly="Microsoft.Office.SharePoint.ClientExtensions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Farm" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="SQLDataConnection.bdcm" Target="SQLDataConnection\" Type="ElementFile" />
+    <ProjectOutputFile ProjectId="7739c3b4-5db1-4b7a-b7cf-e3a744064743" ProjectPath="RadiologyDatabase.csproj" Target="BdcAssemblies\" Type="ElementFile" />
+  </Files>
+  <FeatureProperties>
+    <FeatureProperty Key="IncrementalUpdate" Value="true" />
+    <FeatureProperty Key="ModelFileName" Value="$SharePoint.ProjectItem.Name$\SQLDataConnection.bdcm" />
+    <FeatureProperty Key="SQLDataConnection" Value="BdcAssemblies\$SharePoint.Project.AssemblyFileName$" />
+  </FeatureProperties>
+</ProjectItem>

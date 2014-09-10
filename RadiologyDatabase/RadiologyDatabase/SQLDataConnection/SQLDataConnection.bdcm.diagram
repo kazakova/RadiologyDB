@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SQLDataConnection">
+  <modelRootMoniker Name="/SQLDataConnection" />
+  <nestedChildShapes>
+    <entityShape Id="5f9efce4-1921-41c9-a1e3-1c8b0afeb1a0" absoluteBounds="0.5, 1, 1.5, 1.787985026041667">
+      <entityMoniker name="RadiologyDatabase.SQLDataConnection.userKeyRecordEntity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c35ea17f-3815-4d0b-bd39-8c428be14318" absoluteBounds="0.515, 1.4100000000000001, 1.4700000000000002, 0.44169108072916663" name="Identifiers" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="030a2715-1ff3-416e-922e-a61654405810" absoluteBounds="0.515, 1.8616910807291669, 1.4700000000000002, 0.8262939453125" name="Methods" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

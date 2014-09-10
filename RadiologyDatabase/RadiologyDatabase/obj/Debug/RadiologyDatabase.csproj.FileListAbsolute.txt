@@ -1,0 +1,5 @@
+c:\users\kazako\documents\visual studio 2013\Projects\RadiologyDatabase\RadiologyDatabase\bin\Debug\RadiologyDatabase.dll
+c:\users\kazako\documents\visual studio 2013\Projects\RadiologyDatabase\RadiologyDatabase\bin\Debug\RadiologyDatabase.pdb
+c:\users\kazako\documents\visual studio 2013\Projects\RadiologyDatabase\RadiologyDatabase\obj\Debug\RadiologyDatabase.dll
+c:\users\kazako\documents\visual studio 2013\Projects\RadiologyDatabase\RadiologyDatabase\obj\Debug\RadiologyDatabase.pdb
+c:\users\kazako\documents\visual studio 2013\Projects\RadiologyDatabase\RadiologyDatabase\obj\Debug\RadiologyDatabase.csprojResolveAssemblyReference.cache

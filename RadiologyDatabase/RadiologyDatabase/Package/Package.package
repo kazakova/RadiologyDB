@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2defb451-db50-4a38-a49d-df6b1e59aac7" solutionId="2defb451-db50-4a38-a49d-df6b1e59aac7" resetWebServer="false" sharePointProductVersion="15.0" name="RadiologyDatabase" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8dd49226-a447-4f70-8beb-64fce589acd6" />
+    <featureReference itemId="f01cf746-8326-4aa7-a3a8-243e08756bb4" />
+  </features>
+</package>

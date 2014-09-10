@@ -1,0 +1,4 @@
+,MGH,Mary Gates Hall
+,PAC,Paccar Hall
+,EEB,Electrical Engineering Building
+,COMM,Communications Building

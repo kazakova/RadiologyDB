@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/windows/2007/BusinessDataCatalog" Name="SQLDataConnection">
+  <LobSystems>
+    <LobSystem Name="SQLDataConnection" Type="DotNetAssembly">
+      <LobSystemInstances>
+        <LobSystemInstance Name="SQLDataConnection" />
+      </LobSystemInstances>
+      <Entities>
+        <Entity Name="userKeyRecordEntity" Namespace="RadiologyDatabase.SQLDataConnection" EstimatedInstanceCount="1000" Version="1.0.0.126">
+          <Properties>
+            <Property Name="Class" Type="System.String">RadiologyDatabase.SQLDataConnection.userKeyRecordEntityService, SQLDataConnection</Property>
+          </Properties>
+          <Identifiers>
+            <Identifier Name="checkOutRecordId" TypeName="System.Int32" />
+            <!-- TODO: Change the name of the ID and if needed the TypeName of your identifier. -->
+          </Identifiers>
+          <Methods>
+            <!-- start finder method -->
+            <Method Name="ReadList">
+              <!-- TODO: Change the name of the method if needed. -->
+              <Parameters>
+                <Parameter Direction="Return" Name="returnParameter">
+                  <TypeDescriptor TypeName="System.Collections.Generic.IEnumerable`1[[RadiologyDatabase.SQLDataConnection.userKeyRecord, SQLDataConnection]]" IsCollection="true" Name="userKeyRecordList">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="RadiologyDatabase.SQLDataConnection.userKeyRecord, SQLDataConnection" Name="userKeyRecord">
+                        <TypeDescriptors>
+                          <TypeDescriptor TypeName="System.DateTime" Name="checkedIn" IsCollection="false">                    
+                          <Interpretation>
+                          <NormalizeDateTime LobDateTimeMode="Local" />
+                          </Interpretation>
+                        </TypeDescriptor>
+                          <TypeDescriptor TypeName="System.DateTime" Name="checkedOut" IsCollection="false">                    
+                          <Interpretation>
+                          <NormalizeDateTime LobDateTimeMode="Local" />
+                          </Interpretation>
+                        </TypeDescriptor>
+                          <!-- TODO: Add TypeDescriptors when you add properties to Entity1. -->
+                          <TypeDescriptor Name="checkOutRecordId" TypeName="System.Int32" IsCollection="false" IdentifierName="checkOutRecordId" />
+                          <TypeDescriptor Name="keyNumber" TypeName="System.String" />
+                          <TypeDescriptor Name="lost" TypeName="System.DateTime" IsCollection="false">
+                          <Interpretation>
+                          <NormalizeDateTime LobDateTimeMode="Local" />
+                          </Interpretation>
+                        </TypeDescriptor>
+                          <TypeDescriptor Name="paid" TypeName="System.String" />
+                          <TypeDescriptor Name="valid" TypeName="System.String" /></TypeDescriptors>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </Parameter>
+                <Parameter Name="parameter" Direction="In">
+                  <TypeDescriptor Name="netid" TypeName="System.String" /></Parameter>
+              </Parameters>
+              <MethodInstances>
+                <MethodInstance Type="Finder" ReturnParameterName="returnParameter" Default="true" Name="ReadList" DefaultDisplayName="Entity1 List" />
+              </MethodInstances>
+            </Method>
+            <!-- end finder method -->
+            <!-- start specific finder method -->
+            <Method Name="ReadItem">
+              <Parameters>
+                <Parameter Direction="In" Name="id">
+                  <TypeDescriptor TypeName="System.Int32" Name="checkOutRecordId" IsCollection="false" IdentifierName="checkOutRecordId" />
+                </Parameter>
+                <Parameter Direction="Return" Name="returnParameter">
+                  <TypeDescriptor TypeName="RadiologyDatabase.SQLDataConnection.userKeyRecord, SQLDataConnection" Name="userKeyRecord" IsCollection="false">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.String" Name="keyNumber">
+                        </TypeDescriptor>
+                      <TypeDescriptor TypeName="System.DateTime" Name="checkedOut" IsCollection="false">               
+                          <Interpretation>
+                          <NormalizeDateTime LobDateTimeMode="Local" />
+                          </Interpretation>
+                        </TypeDescriptor>
+                      <!-- TODO: Add TypeDescriptors when you add properties to Entity1. -->
+                      <TypeDescriptor Name="checkedIn" TypeName="System.DateTime" IsCollection="false">               
+                          <Interpretation>
+                          <NormalizeDateTime LobDateTimeMode="Local" />
+                          </Interpretation>
+                        </TypeDescriptor>
+                      <TypeDescriptor Name="lost" TypeName="System.DateTime" IsCollection="false">               
+                          <Interpretation>
+                          <NormalizeDateTime LobDateTimeMode="Local" />
+                          </Interpretation>
+                        </TypeDescriptor>
+                      <TypeDescriptor Name="paid" TypeName="System.String" />
+                      <TypeDescriptor Name="valid" TypeName="System.String" />
+                      <TypeDescriptor Name="checkOutRecordId" TypeName="System.Int32" IsCollection="false" IdentifierName="checkOutRecordId" /></TypeDescriptors>
+                  </TypeDescriptor>
+                </Parameter>
+              </Parameters>
+              <MethodInstances>
+                <MethodInstance Type="SpecificFinder" ReturnParameterName="returnParameter" Default="true" Name="ReadItem" DefaultDisplayName="Read Entity1" />
+              </MethodInstances>
+            </Method>
+            <Method Name="CheckIn">
+              <Parameters>
+                <Parameter Name="id" Direction="In">
+                  <TypeDescriptor Name="checkOutRecordId" TypeName="System.Int32" IsCollection="false" /></Parameter>
+                <Parameter Name="returnParameter" Direction="Out">
+                  <TypeDescriptor Name="userKeyRecordList" TypeName="System.Collections.Generic.IEnumerable`1[[RadiologyDatabase.SQLDataConnection.userKeyRecord, SQLDataConnection]]" IsCollection="false" /></Parameter>
+              </Parameters></Method>
+            <!-- end specific finder method -->
+          </Methods>
+        </Entity>
+      </Entities>
+    </LobSystem>
+  </LobSystems>
+</Model>

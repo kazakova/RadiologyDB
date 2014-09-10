@@ -1,0 +1,8 @@
+,1,Desk,
+,2,Desk,
+,2,Front Door,
+,3,Drawer,"John's, left most"
+,4,Back Door,
+,5,Cabinet,Cabinets 1-14
+,6,Cabinet,15 on the left
+,6,Cabinet,payment records

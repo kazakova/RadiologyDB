@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="b9a95ec0-2328-40f7-b4ab-9ab34fffd65e" Scope="Site" Title="RadiologyDatabase Feature1">
+  <ElementManifests>
+    <ElementManifest Location="UserPickerAndRecords\Elements.xml" />
+    <ElementFile Location="UserPickerAndRecords\UserPickerAndRecords.webpart" />
+  </ElementManifests>
+</Feature>
